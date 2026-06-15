@@ -17,7 +17,7 @@ Prior programming experience sufficient to be able to do laboratory assignments 
 ### Time & Place 
 Lecture: Mon, Wed, 11am - 12:30pm CST in Technological Institute M164
 
-June 22-August 30; 10 weeks
+<!-- June 22-August 30; 10 weeks -->
 
 
 ### Instructors & Office Hours
@@ -37,13 +37,15 @@ You will be graded on a 100 point scale (e.g. 93 to 100 = A, 90-92 = A-, 87-89 =
 There are 4 core axes you will be graded on: assignments (45%), class participation (15%), midterm (10%), final project (30%)
 
 1. Assignments (individual) - jupyter notebook coding homework assignments. There are 4 assignments, I will drop your lowest assignment. This means you can skip any one assignment.
-2. Class participation/Discussions - (A) write a discussion response per week and (B) misc. check ins
+2. Class participation - in-class paper reading activities, discussions, and initial + mid check ins
 3. Final Project (individual / pairs) - make something you're interested in! 
 
-Homework and reading assignments are solo assignments and must be your original work. 
+Homework and reading assignments are solo assignments and must be your original work. There will sometimes be readings to prep for class activities. Both readings and advanced topic lectures will be defined by student interest and finalized by end of Week 2. Some topics may include generative modeling for music/speech/SFX, audio-language models + understanding, corpus studies, ethics, etc.
 
+**Bring headphones to class! Many class activities will involve listening to and/or recording sound.**
+<!-- 
 #### Class Participation
-There will be two course readings, determined collectively by student interests in Week 1. We are going to follow the role-playing paper reading format of [Jacobson and Raffel](https://colinraffel.com/blog/role-playing-seminar.html). In this format, students read the same paper, but each student takes one specific role for that reading presentation. See a short guide on how to read a [paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf). Inspired by Prof. Fuentes' [MIR](https://sed.yox.mybluehost.me/music-information-retrieval/) course.
+There will be two course readings, determined collectively by student interests in Week 1. We are going to follow the role-playing paper reading format of [Jacobson and Raffel](https://colinraffel.com/blog/role-playing-seminar.html). In this format, students read the same paper, but each student takes one specific role for that reading presentation. See a short guide on how to read a [paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf). Inspired by Prof. Fuentes' [MIR](https://sed.yox.mybluehost.me/music-information-retrieval/) course. -->
 
 #### AI policy
 You are expected to write your own code and write up your own answers to question (not ChatGPT or Gemini or Copilot). This is an optional class you are (presumably) taking because you're interested.
@@ -57,27 +59,27 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 
 * means subject to change based on student interest
 
-| Week|Date         | Topic                             | ASSIGNMENT      | Points|
+| Week|Date         | Topic                             | Assignment Due      | Points|  
 |----:|-------------|-----------------------------------|-----------------|------:|
 |1    | Mon June 22   | Course intro, [Recording Basics](eecs352stuff/CS352-topic1-recording-basics.pdf) | Learning Goals + Initial Meeting Sign Ups |   3pts   |    
 |1    | Wed June 24   | [Frequency & Pitch](eecs352stuff/CS352-topic4-pitch.pdf), [Tuning Systems](eecs352stuff/CS352-topic5-tuning-systems.pdf) + sound representations (phonemes, sheet music, piano roll, midi) |        |      |    
 |2    | Mon June 29  | [Amplitude](eecs352stuff/CS352-topic2-amplitude.pdf) & [Loudness](eecs352stuff/CS352-topic3-loudness.pdf) |        |      |    
 |2    | Wed July 1  |  [Fourier Transforms & Spectrograms](eecs352stuff/CS352-topic6-DFT.pdf)   |        |      |    
 |3    | Mon July 6  |  [Convolution](eecs352stuff/CS352-topic8-convolution.pdf) & [Filtering](eecs352stuff/CS352-topic9-filtering.pdf) // [Convolution & FFT notebooks](eecs352stuff/convolution_and_fft_notebook.zip)  | HW 1 Audio Basics   |     15 |    
-|3    | Wed July 8  |  [MFCCs and Chromagrams](eecs352stuff/CS352-topic7-Chroma-Cepstra.pdf) // [MFCC + Chroma notebooks](eecs352stuff/NUCS352_chromagram_mfcc_notebook.zip) |        |      |    
-|4    | Mon July 13  | [Self-Similarity](https://pseeth.github.io/public/lectures/self-similarity.html) | HW 2 Spectrograms, Masking | 15 | 
-|4    | Wed July 15  | [(Beat) + Pitch Tracking](eecs352stuff/CS352-Single-Pitch-Detection.pdf), [Source Separation w/ REPET](eecs352stuff/CS352-topic10-REPET-SIM.pdf)  |    |     |    
-|5    | Mon July 20   | [Basic Classifiers & Sound Object Labeling](eecs352stuff/CS352-topic11-sound-object-id.pdf) | HW 3 Infinite Jukebox | 15 |
-|5    | Wed July 22  | MIDTERM Check-In (oral, on Zoom) | Midterm |   10   | 
-|6    | Mon July 27  | [Deep Learning](eecs352stuff/CS352-topic12-deep-nets.pdf) & [Autoencoders](eecs352stuff/DL_Autoencoders.pdf)   |   | |    
-|6    | Wed July 29  | [Embeddings](eecs352stuff/CS352-embeddings.pdf) & [Embeddings Notebook](eecs352stuff/NUCS352_clap_embeddings_notebook.zip)|    |      |    
-|7    | Mon Aug 3  | Building Interactive Music Systems (HCI for Musicking) |   HW 4 Using Embeddings    |  15  |
-|7    | Wed Aug 5  |  Final Project Overview + group formation   |  |  |
-|8    | Mon Aug 10  | *Special Topics: Musicology/Music Recommendation Systems + RP-Paper Reading 1 | Project Proposal Due |    5 (of 30)    |    
-|8    | Wed Aug 12  | Zoom meetings with project groups (no class: meetings by appointment) | Project Meeting 1  | (5 of 30) |    
-|9    | Mon Aug 17   | *Special Topics: Audio Language Models + RP-Paper Reading 2 |  |   |    
-|9    | Wed Aug 19   | Zoom meetings with project groups (no class: meetings by appointment)| Project Meeting 2 | 5 of (30) |    
-|10   | Mon Aug 24  | *Special Topics: Generative Audio Models (tbd: guest lectures)|          |           |    
+|3    | Wed July 8  | Advanced Filtering: [Source Separation w/ REPET](eecs352stuff/CS352-topic10-REPET-SIM.pdf) |        |      |    
+|3    | Mon July 13   | [MFCCs and Chromagrams](eecs352stuff/CS352-topic7-Chroma-Cepstra.pdf) // [MFCC + Chroma notebooks](eecs352stuff/NUCS352_chromagram_mfcc_notebook.zip) |        |      |    
+|4    | Wed July 15  | [Self-Similarity](https://pseeth.github.io/public/lectures/self-similarity.html) | HW 2 Spectrograms, Masking | 15 | 
+|4    | Mon July 20  | [(Beat) + Pitch Tracking](eecs352stuff/CS352-Single-Pitch-Detection.pdf) |    |     |    
+|5    | Wed July 22   | [Basic Classifiers (Sound Object Labeling)](eecs352stuff/CS352-topic11-sound-object-id.pdf) | HW 3 Infinite Jukebox | 15 |
+|5    | Mon July 27   | MIDTERM Check-In (exam; 10) / check in (5 pts) | Midterm |   10   | 
+|6    | Wed July 29   | [Deep Learning](eecs352stuff/CS352-topic12-deep-nets.pdf) & [Autoencoders](eecs352stuff/DL_Autoencoders.pdf)   |   | |    
+|6    | Mon Aug 3  | [Embeddings](eecs352stuff/CS352-embeddings.pdf) & [Embeddings Notebook](eecs352stuff/NUCS352_clap_embeddings_notebook.zip) & Final Project Overview |    |      |  
+|7    | Wed Aug 5  | Building Interactive Music Systems (HCI for Musicking) |   HW 4 Using Embeddings    |  15  |
+|7    | Mon Aug 10  |  Workshopping Proposals  | Project Proposal Due (EOD) | 5 (of 30)   |
+|8    | Wed Aug 12  | *Advanced Topics (TBD)* + Project Workshop |  |      |    
+|8    | Mon Aug 17  | Zoom meetings with project groups (no class: meetings by appointment) | Project Meeting 1  | (5 of 30) |    
+|9    | Wed Aug 19   | *Advanced Topics (TBD)* + Project Workshop |  |   |   
+|10   | Mon Aug 24  | Zoom meetings with project groups (no class: meetings by appointment)| Project Meeting 2 | 5 of (30) | 
 |10   | Wed Aug 26  | FINAL PROJECT PRESENTATIONS    |            | Deliverables (15 of 30) |  
 
 <a name="readings"></a>

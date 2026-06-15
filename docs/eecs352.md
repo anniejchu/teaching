@@ -63,7 +63,7 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 | Week|Date         | Topic                             | Assignment Due      | Points|  
 |----:|-------------|-----------------------------------|-----------------|------:|
 |1    | Mon June 22   | Course intro, [Recording Basics](eecs352stuff/CS352-topic1-recording-basics.pdf) | Learning Goals + Initial Meeting Sign Ups |   3pts   |    
-|1    | Wed June 24   | [Frequency & Pitch](eecs352stuff/CS352-topic4-pitch.pdf), [Tuning Systems](eecs352stuff/CS352-topic5-tuning-systems.pdf) + sound representations (phonemes, sheet music, piano roll, midi) |        |      |    
+|1    | Wed June 24   | [Frequency & Pitch](eecs352stuff/CS352-topic4-pitch.pdf), [Tuning Systems](eecs352stuff/CS352-topic5-tuning-systems.pdf) |        |      |    
 |2    | Mon June 29  | [Amplitude](eecs352stuff/CS352-topic2-amplitude.pdf) & [Loudness](eecs352stuff/CS352-topic3-loudness.pdf) |        |      |    
 |2    | Wed July 1  |  [Fourier Transforms & Spectrograms](eecs352stuff/CS352-topic6-DFT.pdf)   |        |      |    
 |3    | Mon July 6  |  [Convolution](eecs352stuff/CS352-topic8-convolution.pdf) & [Filtering](eecs352stuff/CS352-topic9-filtering.pdf) // [Convolution & FFT notebooks](eecs352stuff/convolution_and_fft_notebook.zip)  | HW 1 Audio Basics   |     15 |    

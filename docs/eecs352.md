@@ -38,9 +38,9 @@ There are 4 core axes you will be graded on: assignments (45%), class participat
 
 1. Assignments (individual) - jupyter notebook coding homework assignments. There are 4 assignments, I will drop your lowest assignment. This means you can skip any one assignment.
 2. Class participation - in-class paper reading activities, discussions, and initial + mid check ins
-3. Final Project (individual / pairs) - make something you're interested in! 
+3. Final Project (groups of 2-3) - make/analyze/implement something you're interested in! 
 
-Homework and reading assignments are solo assignments and must be your original work. There will sometimes be readings to prep for class activities. Both readings and advanced topic lectures will be defined by student interest and finalized by end of Week 2. Some topics may include generative modeling for music/speech/SFX, audio-language models + understanding, corpus studies, ethics, etc.
+Homework and reading assignments are solo assignments and must be your original work. There will occasionally be readings or exercises to prep for in-class work. Both readings and advanced topic lectures will be defined by student interest and finalized by end of Week 2. Topics of interest may include generative modeling for music/speech/SFX, audio-language models + understanding, corpus studies, ethics, etc.
 
 **Bring headphones to class! Many class activities will involve listening to and/or recording sound.**
 
@@ -49,7 +49,7 @@ Homework and reading assignments are solo assignments and must be your original 
 There will be two course readings, determined collectively by student interests in Week 1. We are going to follow the role-playing paper reading format of [Jacobson and Raffel](https://colinraffel.com/blog/role-playing-seminar.html). In this format, students read the same paper, but each student takes one specific role for that reading presentation. See a short guide on how to read a [paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf). Inspired by Prof. Fuentes' [MIR](https://sed.yox.mybluehost.me/music-information-retrieval/) course. -->
 
 #### AI policy
-You are expected to write your own code and write up your own answers to question (not ChatGPT or Gemini or Copilot). This is an optional class you are (presumably) taking because you're interested.
+You are expected to write your own code and write up your own answers to questions (not ChatGPT or Gemini or Copilot). This is an optional class you are (presumably) taking because you're interested.
 
 #### Submitting assignments
 Assignments must be submitted on the due date by the time specified on Canvas. If you are worried you can't finish on time, upload a safety submission an hour early with what you have. I will grade the most recent item submitted before the deadline. Late submissions will not be graded.
@@ -62,7 +62,7 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 
 | Week|Date         | Topic                             | Assignment Due      | Points|  
 |----:|-------------|-----------------------------------|-----------------|------:|
-|1    | Mon June 22   | Course intro, [Recording Basics](eecs352stuff/CS352-topic1-recording-basics.pdf) | Learning Goals + Initial Meeting Sign Ups |   3pts   |    
+|1    | Mon June 22   | Course intro, [Recording Basics](eecs352stuff/CS352-topic1-recording-basics.pdf) | Learning Goals + Initial Meeting Sign Ups |   |    
 |1    | Wed June 24   | [Frequency & Pitch](eecs352stuff/CS352-topic4-pitch.pdf), [Tuning Systems](eecs352stuff/CS352-topic5-tuning-systems.pdf) |        |      |    
 |2    | Mon June 29  | [Amplitude](eecs352stuff/CS352-topic2-amplitude.pdf) & [Loudness](eecs352stuff/CS352-topic3-loudness.pdf) |        |      |    
 |2    | Wed July 1  |  [Fourier Transforms & Spectrograms](eecs352stuff/CS352-topic6-DFT.pdf)   |        |      |    

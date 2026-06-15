@@ -58,23 +58,23 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 <a name="calendar"></a>
 ### Course Calendar  
 
-* means subject to change based on student interest
+(*)means subject to change based on student interest
 
 | Week|Date         | Topic                             | Assignment Due      | Points|  
 |----:|-------------|-----------------------------------|-----------------|------:|
 |1    | Mon June 22   | Course intro, [Recording Basics](eecs352stuff/CS352-topic1-recording-basics.pdf) |  |   |    
-|1    | Wed June 24   | [Frequency & Pitch](eecs352stuff/CS352-topic4-pitch.pdf), [Tuning Systems](eecs352stuff/CS352-topic5-tuning-systems.pdf) |  Intake + Meeting   |   5pts   |    
+|1    | Wed June 24   | [Frequency & Pitch](eecs352stuff/CS352-topic4-pitch.pdf), [Tuning Systems](eecs352stuff/CS352-topic5-tuning-systems.pdf) |  Intake/Initial Meeting  |   5 (of 15)   |    
 |2    | Mon June 29  | [Amplitude](eecs352stuff/CS352-topic2-amplitude.pdf) & [Loudness](eecs352stuff/CS352-topic3-loudness.pdf) |        |      |    
 |2    | Wed July 1  |  [Fourier Transforms & Spectrograms](eecs352stuff/CS352-topic6-DFT.pdf)   |        |      |    
 |3    | Mon July 6  |  [Convolution](eecs352stuff/CS352-topic8-convolution.pdf) & [Filtering](eecs352stuff/CS352-topic9-filtering.pdf) // [Convolution & FFT notebooks](eecs352stuff/convolution_and_fft_notebook.zip)  | HW 1 Audio Basics   |     15 |    
-|3    | Wed July 8  | Advanced Filtering: [Source Separation w/ REPET](eecs352stuff/CS352-topic10-REPET-SIM.pdf) |        |      |    
+|3    | Wed July 8  | Advanced Filtering: [Source Separation w/ REPET](eecs352stuff/CS352-topic10-REPET-SIM.pdf) |        |   5 (of 15)   |    
 |3    | Mon July 13   | [MFCCs and Chromagrams](eecs352stuff/CS352-topic7-Chroma-Cepstra.pdf) // [MFCC + Chroma notebooks](eecs352stuff/NUCS352_chromagram_mfcc_notebook.zip) |        |      |    
 |4    | Wed July 15  | [Self-Similarity](https://pseeth.github.io/public/lectures/self-similarity.html) | HW 2 Spectrograms, Masking | 15 | 
 |4    | Mon July 20  | [(Beat) + Pitch Tracking](eecs352stuff/CS352-Single-Pitch-Detection.pdf) |    |     |    
 |5    | Wed July 22   | [Basic Classifiers (Sound Object Labeling)](eecs352stuff/CS352-topic11-sound-object-id.pdf) | HW 3 Infinite Jukebox | 15 |
-|5    | Mon July 27   | Midterm Check-In (exam + check-in) | Midterm |   10+5   | 
+|5    | Mon July 27   | Midterm Check-In (exam + check-in)  / Final Project Overview | Midterm |   10 + 5 (of 15)   | 
 |6    | Wed July 29   | [Deep Learning](eecs352stuff/CS352-topic12-deep-nets.pdf) & [Autoencoders](eecs352stuff/DL_Autoencoders.pdf)   |   | |    
-|6    | Mon Aug 3  | [Embeddings](eecs352stuff/CS352-embeddings.pdf) & [Embeddings Notebook](eecs352stuff/NUCS352_clap_embeddings_notebook.zip) & Final Project Overview |    |      |  
+|6    | Mon Aug 3  | [Embeddings](eecs352stuff/CS352-embeddings.pdf) & [Embeddings Notebook](eecs352stuff/NUCS352_clap_embeddings_notebook.zip) + Project Proposals |    |      |  
 |7    | Wed Aug 5  | Building Interactive Music Systems (HCI for Musicking) |   HW 4 Using Embeddings (due Friday)    |  15  |
 |7    | Mon Aug 10  |  Workshopping Proposals  | Project Proposal Due (EOD) | 5 (of 30)   |
 |8    | Wed Aug 12  | *Advanced Topics (TBD)* + Project Workshop |  |      |    

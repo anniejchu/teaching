@@ -1,9 +1,11 @@
 
 ### [Summer 2026: COMP_SCI 352 Machine Perception of Music and Audio](eecs352.md)
 
-### [Winter 2025 & 2026: COMM_ST Computing Everywhere: Generative Modeling](eecs352.md)
+### Winter 2025 & 2026: COMM_ST Computing Everywhere: Generative Modeling 
+### Fall 2024: COMM_ST Computing Everywhere: HCI for musicking
 
-### [Fall 2024: COMM_ST Computing Everywhere: HCI for musicking](eecs352.md)
+<!-- ](eecs352.md) -->
+
 
 <!-- 
 ### [FALL 2022: COMP_SCI 496 Generative Deep Models](generative_deep_models.md)

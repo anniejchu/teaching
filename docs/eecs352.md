@@ -43,6 +43,7 @@ There are 4 core axes you will be graded on: assignments (45%), class participat
 Homework and reading assignments are solo assignments and must be your original work. There will sometimes be readings to prep for class activities. Both readings and advanced topic lectures will be defined by student interest and finalized by end of Week 2. Some topics may include generative modeling for music/speech/SFX, audio-language models + understanding, corpus studies, ethics, etc.
 
 **Bring headphones to class! Many class activities will involve listening to and/or recording sound.**
+
 <!-- 
 #### Class Participation
 There will be two course readings, determined collectively by student interests in Week 1. We are going to follow the role-playing paper reading format of [Jacobson and Raffel](https://colinraffel.com/blog/role-playing-seminar.html). In this format, students read the same paper, but each student takes one specific role for that reading presentation. See a short guide on how to read a [paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf). Inspired by Prof. Fuentes' [MIR](https://sed.yox.mybluehost.me/music-information-retrieval/) course. -->

@@ -22,8 +22,8 @@ Lecture: Mon, Wed, 11am - 12:30pm CST in Technological Institute M164
 
 ### Instructors & Office Hours
 [Annie Chu](https://anniejchu.github.io)
-TBD Mondays [on Zoom](https://northwestern.zoom.us/j/9176709379) or [by appointment](mailto:anniechu@u.northwestern.edu)
-
+1-2pm Mondays in Mudd 3202 or [by appointment](mailto:anniechu@u.northwestern.edu)
+<!-- [on Zoom](https://northwestern.zoom.us/j/9176709379) -->
 ### Course Policies 
 
 #### Questions outside of class
@@ -42,7 +42,6 @@ There are 4 core axes you will be graded on: assignments (45%), class participat
 
 Homework and reading assignments are solo assignments and must be your original work. There will occasionally be readings or exercises to prep for in-class work. Both readings and advanced topic lectures will be defined by student interest and finalized by end of Week 2. Topics of interest may include generative modeling for music/speech/SFX, audio-language models + understanding, corpus studies, ethics, etc.
 
-**Bring headphones to class! Many class activities will involve listening to and/or recording sound.**
 
 <!-- 
 #### Class Participation
@@ -57,15 +56,17 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 
 <a name="calendar"></a>
 ### Course Calendar  
+**Bring headphones to class! Many class activities will involve listening to and/or recording sound.**
+
 
 (*)means subject to change based on student interest
 
 | Week|Date         | Topic                             | Assignment Due      | Points|  
 |----:|-------------|-----------------------------------|-----------------|------:|
 |1    | Mon June 22   | Course intro, [Recording Basics](eecs352stuff/CS352-topic1-recording-basics.pdf) |  |   |    
-|1    | Wed June 24   | [Frequency & Pitch](eecs352stuff/CS352-topic4-pitch.pdf), [Tuning Systems](eecs352stuff/CS352-topic5-tuning-systems.pdf) |  Prelim Meeting |   5 (of 15)   |    
+|1    | Wed June 24   | [Frequency & Pitch](eecs352stuff/CS352-topic4-pitch.pdf), [Tuning Systems](eecs352stuff/CS352-topic5-tuning-systems.pdf) |  Intake Assignment (due Friday EoD)|   5 (of 15)   |    
 |2    | Mon June 29  | [Amplitude](eecs352stuff/CS352-topic2-amplitude.pdf) & [Loudness](eecs352stuff/CS352-topic3-loudness.pdf) |        |      |    
-|2    | Wed July 1  |  [Fourier Transforms & Spectrograms](eecs352stuff/CS352-topic6-DFT.pdf)   |        |      |    
+|2    | Wed July 1  |  [Fourier Transforms & Spectrograms](eecs352stuff/CS352-topic6-DFT.pdf) ([on Zoom](https://northwestern.zoom.us/j/9176709379))   |        |      |    
 |3    | Mon July 6  |  [Convolution](eecs352stuff/CS352-topic8-convolution.pdf) & [Filtering](eecs352stuff/CS352-topic9-filtering.pdf) // [Convolution & FFT notebooks](eecs352stuff/convolution_and_fft_notebook.zip)  | HW 1 Audio Basics   |     15 |    
 |3    | Wed July 8  | Advanced Filtering: [Source Separation w/ REPET](eecs352stuff/CS352-topic10-REPET-SIM.pdf) |  Paper Reading Activity      |   5 (of 15)   |    
 |3    | Mon July 13   | [MFCCs and Chromagrams](eecs352stuff/CS352-topic7-Chroma-Cepstra.pdf) // [MFCC + Chroma notebooks](eecs352stuff/NUCS352_chromagram_mfcc_notebook.zip) |        |      |    

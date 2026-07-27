@@ -159,5 +159,5 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 |[**Top**](#top)   |[**Calendar**](#calendar)  |[**Links**](#links)  |[**Readings**](#readings)|
 
 
-[papers](https://arxiv.org/pdf/2410.00872)
+<!-- [papers](https://arxiv.org/pdf/2410.00872) -->
 

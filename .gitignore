@@ -2,9 +2,28 @@ eecs352-musicaudio/
 .jekyll-cache/
 Gemfile
 Gemfile.lock
-_config.yml
-_includes/
-_layouts/
 _site/
-assets/
 thinkspace.gemspec
+.DS_Store
+
+# Local assets that are not used by this teaching site.
+assets/*.pdf
+!assets/052026_CV.pdf
+assets/css/font-awesome.min.css
+assets/icons/
+assets/images/me.jpg
+
+# The site only needs the small compatibility helpers in _helpers.scss.
+web_style/_sass/bourbon/
+
+# Keep unused theme templates local unless the site grows to use them.
+web_style/_includes/*
+!web_style/_includes/foot.html
+!web_style/_includes/footer.html
+!web_style/_includes/head.html
+!web_style/_includes/header.html
+!web_style/_includes/nav.html
+web_style/_layouts/*
+!web_style/_layouts/compress.html
+!web_style/_layouts/default.html
+!web_style/_layouts/page.html

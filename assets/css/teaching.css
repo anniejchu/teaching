@@ -1,0 +1,190 @@
+/* ---------- Course design variables ---------- */
+
+:root {
+  --course-text: #17191d;
+  --course-muted: #636b78;
+  --course-border: #dfe3e8;
+  --course-surface: #f5f7fa;
+  --course-accent: #4f46e5;
+  --course-accent-dark: #3730a3;
+  --course-max-width: 1120px;
+}
+
+
+/* ---------- Base typography ---------- */
+
+.course-page {
+  color: var(--course-text);
+  font-family:
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.course-page p,
+.course-page li {
+  max-width: 76ch;
+}
+
+.course-page a {
+  color: var(--course-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.course-page a:hover {
+  color: var(--course-accent-dark);
+}
+
+
+/* ---------- Course hero ---------- */
+
+.course-hero {
+  margin: 0 0 3rem;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  border: 1px solid var(--course-border);
+  border-radius: 20px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(79, 70, 229, 0.12),
+      rgba(255, 255, 255, 0.95) 60%
+    );
+}
+
+.course-kicker {
+  margin: 0 0 0.75rem;
+  color: var(--course-accent-dark);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.course-title {
+  margin: 0;
+  font-size: clamp(2.8rem, 8vw, 6.5rem);
+  font-weight: 750;
+  letter-spacing: -0.06em;
+  line-height: 0.95;
+}
+
+.course-subtitle {
+  max-width: 780px;
+  margin: 1rem 0 0;
+  color: var(--course-muted);
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+
+/* ---------- Section navigation ---------- */
+
+.course-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 2rem;
+}
+
+.course-nav a {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--course-border);
+  border-radius: 999px;
+  background: white;
+  color: var(--course-text);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.course-nav a:hover {
+  border-color: var(--course-accent);
+  color: var(--course-accent);
+}
+
+
+/* ---------- Headings ---------- */
+
+.course-page h2,
+.course-page h3,
+.course-page h4 {
+  color: var(--course-text);
+  font-family:
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  letter-spacing: -0.025em;
+}
+
+.course-page h3 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--course-border);
+  font-size: 1.3rem;
+}
+
+.course-page h4 {
+  margin-top: 2rem;
+  font-size: 1.15rem;
+}
+
+
+/* ---------- Tables ---------- */
+
+.course-page table {
+  display: block;
+  width: 100%;
+  margin: 1.5rem 0 2.5rem;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.course-page th,
+.course-page td {
+  min-width: 8rem;
+  padding: 0.85rem;
+  border: 1px solid var(--course-border);
+  vertical-align: top;
+  text-align: left;
+}
+
+.course-page th {
+  background: var(--course-surface);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.course-page tr:nth-child(even) td {
+  background: #fafbfc;
+}
+
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 700px) {
+  .course-page {
+    font-size: 16px;
+  }
+
+  .course-hero {
+    padding: 1.5rem;
+    border-radius: 14px;
+  }
+
+  .course-page th,
+  .course-page td {
+    min-width: 9rem;
+    padding: 0.7rem;
+  }
+}

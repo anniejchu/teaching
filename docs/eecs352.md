@@ -2,12 +2,14 @@
 layout: page
 # title: cs352
 which_category: teaching
-permalink: /teaching/cs352
+permalink: /cs352
 body_class: course-page
 
 ---
 
-<a name="top"></a>
+{% assign course_assets = '/docs/eecs352stuff' | relative_url %}
+
+<span id="top"></span>
 ## CS352: Machine Perception of Music and Audio 
 **Northwestern University (Updated for: Summer-2026)**
 
@@ -62,7 +64,7 @@ You are expected to write your own code and write up your own answers to questio
 Assignments must be submitted on the due date by the time specified on Canvas. If you are worried you can't finish on time, upload a safety submission an hour early with what you have. I will grade the most recent item submitted before the deadline. Late submissions will not be graded.
 
 
-<a name="calendar"></a>
+<span id="calendar"></span>
 ### Course Calendar  
 **Bring headphones to class! Many class activities will involve listening to and/or recording sound.**
 
@@ -71,18 +73,18 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 
 | Week | Date        | Topic                                                                                                                                                                                                           | In Class Activity (updated per class) | Assignment Due                                                                                                                             |                  Points |
 | ---: | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------: |
-|    1 | Mon June 22 | Course intro, [Recording Basics](eecs352stuff/CS352-topic1-recording-basics.pdf) | [Audio 101: Who Let the Dogs Out?](eecs352stuff/1_audio-101.zip)<br>Meeting Sign Up: [LINK](https://docs.google.com/spreadsheets/d/1v5VeqGpUOxIp7wP0vM-gzaabNCpfUQZKOO77V-HjFvY/edit?usp=sharing) |                                                                                                                                            |                         |
-|    1 | Wed June 24 | [Frequency & Pitch](eecs352stuff/CS352-topic4-pitch.pdf), [Tuning Systems](eecs352stuff/CS352-topic5-tuning-systems.pdf)                                                                                        |                   | [Intake Assignment](https://docs.google.com/document/d/1JTh7xrUcHJd7bsQBwmfvKQPmrjDx1GurM8rmeEPC_Xc/edit?usp=sharing) (due Friday June 26) |               5 (of 15) |
-|    2 | Mon June 29 | [Amplitude](eecs352stuff/CS352-topic2-amplitude.pdf) & [Loudness](eecs352stuff/CS352-topic3-loudness.pdf)                                                                                                       |                   |                                                                                                                                            |                         |
-|    2 | Wed July 1  | [Fourier Transforms & Spectrograms](eecs352stuff/CS352-topic6-DFT.pdf) ([on Zoom](https://northwestern.zoom.us/j/9176709379))                                                                                   |                   |                                                                                                                                            |                         |
-|    3 | Mon July 6  | [Convolution](eecs352stuff/CS352-topic8-convolution.pdf) & [Filtering](eecs352stuff/CS352-topic9-filtering.pdf)|  [Convolution & FFT notebooks](eecs352stuff/convolution_and_fft_notebook_2026.zip) | HW 1 Audio Basics                                                                                                                          |                      15 |
-|    3 | Wed July 8  | Advanced Filtering: [Source Separation w/ REPET](eecs352stuff/CS352-topic10-REPET-SIM.pdf) | [Paper Reading Activity](https://colinraffel.com/blog/role-playing-seminar.html)   | Read [REPET](https://interactiveaudiolab.github.io/assets/papers/Rafii-Pardo%20-%20Online%20REPET-SIM%20for%20Real-time%20Speech%20Enhancement%20-%20ICASSP%202013.pdf) paper before class  | 5 (of 15) |
-|    3 | Mon July 13 | [MFCCs and Chromagrams](eecs352stuff/CS352-topic7-Chroma-Cepstra.pdf)                                                          | [MFCC + Chroma notebooks](eecs352stuff/NUCS352_chromagram_mfcc_demo_student.zip) |                                                                                                                                            |                         |
+|    1 | Mon June 22 | Course intro, [Recording Basics]({{ course_assets }}/CS352-topic1-recording-basics.pdf) | [Audio 101: Who Let the Dogs Out?]({{ course_assets }}/1_audio-101.zip)<br>Meeting Sign Up: [LINK](https://docs.google.com/spreadsheets/d/1v5VeqGpUOxIp7wP0vM-gzaabNCpfUQZKOO77V-HjFvY/edit?usp=sharing) |                                                                                                                                            |                         |
+|    1 | Wed June 24 | [Frequency & Pitch]({{ course_assets }}/CS352-topic4-pitch.pdf), [Tuning Systems]({{ course_assets }}/CS352-topic5-tuning-systems.pdf)                                                                                        |                   | [Intake Assignment](https://docs.google.com/document/d/1JTh7xrUcHJd7bsQBwmfvKQPmrjDx1GurM8rmeEPC_Xc/edit?usp=sharing) (due Friday June 26) |               5 (of 15) |
+|    2 | Mon June 29 | [Amplitude]({{ course_assets }}/CS352-topic2-amplitude.pdf) & [Loudness]({{ course_assets }}/CS352-topic3-loudness.pdf)                                                                                                       |                   |                                                                                                                                            |                         |
+|    2 | Wed July 1  | [Fourier Transforms & Spectrograms]({{ course_assets }}/CS352-topic6-DFT.pdf) ([on Zoom](https://northwestern.zoom.us/j/9176709379))                                                                                   |                   |                                                                                                                                            |                         |
+|    3 | Mon July 6  | [Convolution]({{ course_assets }}/CS352-topic8-convolution.pdf) & [Filtering]({{ course_assets }}/CS352-topic9-filtering.pdf)|  [Convolution & FFT notebooks]({{ course_assets }}/convolution_and_fft_notebook_2026.zip) | HW 1 Audio Basics                                                                                                                          |                      15 |
+|    3 | Wed July 8  | Advanced Filtering: [Source Separation w/ REPET]({{ course_assets }}/CS352-topic10-REPET-SIM.pdf) | [Paper Reading Activity](https://colinraffel.com/blog/role-playing-seminar.html)   | Read [REPET](https://interactiveaudiolab.github.io/assets/papers/Rafii-Pardo%20-%20Online%20REPET-SIM%20for%20Real-time%20Speech%20Enhancement%20-%20ICASSP%202013.pdf) paper before class  | 5 (of 15) |
+|    3 | Mon July 13 | [MFCCs and Chromagrams]({{ course_assets }}/CS352-topic7-Chroma-Cepstra.pdf)                                                          | [MFCC + Chroma notebooks]({{ course_assets }}/NUCS352_chromagram_mfcc_demo_student.zip) |                                                                                                                                            |                         |
 |    4 | Wed July 15 | [Self-Similarity](https://pseeth.github.io/public/lectures/self-similarity.html)                                                                                                                                |                   | HW 2 Spectrograms, Masking                                                                                                                 |                      15 |
-|    4 | Mon July 20 | [Pitch Tracking](eecs352stuff/CS352-Single-Pitch-Detection.pdf) + Midterm Review |   [Sign up](https://docs.google.com/spreadsheets/d/1v5VeqGpUOxIp7wP0vM-gzaabNCpfUQZKOO77V-HjFvY/edit?usp=sharing) for Midterm Meeting               |                                                                                                                                            |                         |
-|    5 | Wed July 22 | [Basic Classifiers (Sound Object Labeling)](eecs352stuff/CS352-topic11-sound-object-id.pdf)                                                                                                                     |                   | HW 3 Infinite Jukebox                                                                                                                      |                      15 |
-|    5 | Mon July 27 | Midterm & [Final Project Overview](eecs352stuff/CS352-final-project-overview.docx)                                                                                                                                                                              |                   | Midterm Meeting                                                                                                                     |          10 & 5 (of 15) |
-|    6 | Wed July 29 | [Embeddings](eecs352stuff/CS352-embeddings.pdf) w/ Primer of [Deep Learning](eecs352stuff/CS352-topic12-deep-nets.pdf) & [Autoencoders](eecs352stuff/DL_Autoencoders.pdf)   | [Embeddings Notebook](eecs352stuff/NUCS352_clap_embeddings_notebook.zip)  |                                                                                                                                            |                         |
+|    4 | Mon July 20 | [Pitch Tracking]({{ course_assets }}/CS352-Single-Pitch-Detection.pdf) + Midterm Review |   [Sign up](https://docs.google.com/spreadsheets/d/1v5VeqGpUOxIp7wP0vM-gzaabNCpfUQZKOO77V-HjFvY/edit?usp=sharing) for Midterm Meeting               |                                                                                                                                            |                         |
+|    5 | Wed July 22 | [Basic Classifiers (Sound Object Labeling)]({{ course_assets }}/CS352-topic11-sound-object-id.pdf)                                                                                                                     |                   | HW 3 Infinite Jukebox                                                                                                                      |                      15 |
+|    5 | Mon July 27 | Midterm & [Final Project Overview]({{ course_assets }}/CS352-final-project-overview.docx)                                                                                                                                                                              |                   | Midterm Meeting                                                                                                                     |          10 & 5 (of 15) |
+|    6 | Wed July 29 | [Embeddings]({{ course_assets }}/CS352-embeddings.pdf) w/ Primer of [Deep Learning]({{ course_assets }}/CS352-topic12-deep-nets.pdf) & [Autoencoders]({{ course_assets }}/DL_Autoencoders.pdf)   | [Embeddings Notebook]({{ course_assets }}/NUCS352_clap_embeddings_notebook.zip)  |                                                                                                                                            |                         |
 |    6 | Mon Aug 3   | Guest Lecture: Ethics in Music AI (Julia Barnett) + Project Proposals | |                                                                                                                                            |                         |
 |    7 | Wed Aug 5   | Building Interactive Music Systems (HCI for Musicking)                                                                                                                                                          |                   | HW 4 Using Embeddings (due Fri Aug 7)                                                                                                      |                      15 |
 |    7 | Mon Aug 10  | Workshopping Proposals                                                                                                                                                                                          |                   | Project Proposal Due (EOD)                                                                                                                 |               5 (of 30) |
@@ -92,7 +94,7 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 |   10 | Mon Aug 24  | [Zoom meetings](https://docs.google.com/spreadsheets/d/1v5VeqGpUOxIp7wP0vM-gzaabNCpfUQZKOO77V-HjFvY/edit?gid=797982123#gid=797982123) with project groups (no class: meetings by appointment)                                                                                                                                           |                   | Project Meeting 2                                                                                                                          |               5 of (30) |
 |   10 | Wed Aug 26  | FINAL PROJECT PRESENTATIONS ([on Zoom](https://northwestern.zoom.us/j/9176709379))                                                                                                                                                                                     |                   |                                                                                                                                            | Deliverables (15 of 30) |
 
-<a name="readings"></a>
+<span id="readings"></span>
 
 
 
@@ -110,7 +112,7 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 
 [* REPET for Background/Foreground Separation in Audio](https://interactiveaudiolab.github.io/assets/papers/Rafii-Liutkus-Pardo%20-%20REPET%20for%20Background-Foreground%20Separation%20in%20Audio%20-%20Springer%202014.pdf)
 
-[Chapter 4 of Machine Learning ](eecs352stuff/chapter4-ml.pdf): This is Tom Mitchell's book. Historical overview + explanation of backprop of error. It's a good starting point for actually understanding deep nets. 
+[Chapter 4 of Machine Learning ]({{ course_assets }}/chapter4-ml.pdf): This is Tom Mitchell's book. Historical overview + explanation of backprop of error. It's a good starting point for actually understanding deep nets.
 
 [Yin: a fundamental frequency estimator for speech and music](https://asa.scitation.org/doi/pdf/10.1121/1.1458024) - This is, perhaps, the most popular pitch tracker.
 
@@ -123,11 +125,11 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 [Recovering sound sources from embedded repetition](http://mcdermottlab.mit.edu/papers/McDermott_Wrobleski_Oxenham_2011_source_repetition.pdf) - This is a paper on how humans actually listen to and parse audio based on repetition. Read any time.
 
 
-<a name="links"></a>
+<span id="links"></span>
 
 ### Helpful Links
 
-<a name="projects"></a>
+<span id="projects"></span>
 #### Some CS352 Projects (Mentor: A.Chu)
 
 [Live Neural Harmonizer](https://ryanrlee.github.io/projects/harmonizer/), Summer 2026
@@ -180,4 +182,3 @@ Benchmarking Neural vs Real Amps, Summer 2026
 
 
 |[**Top**](#top)   |[**Calendar**](#calendar)  |[**Links**](#links)  |[**Readings**](#readings)|
-

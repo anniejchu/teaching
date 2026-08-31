@@ -1,0 +1,68 @@
+# Site settings
+title_left    : "Annie Chu"
+title_right   : "" # default: ""
+description   : ""
+keywords      : "northwestern, phd"
+url           : https://anniejchu.github.io # site url
+baseurl       : "/teaching"
+cover         : "" # image uri like logo/cover image for site seo
+
+google_analytics  : UA-XXXXX-XX
+twitter_username  : ""
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+postshare_enabled : false
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+includes_dir: web_style/_includes
+layouts_dir : web_style/_layouts
+
+# Sass configuration
+sass:
+  sass_dir  : web_style/_sass
+  style     : compressed # expanded
+
+# Author settings
+author:
+  name     : "Annie Chu"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : testing
+    title: Testing
+  - slug : cv
+    title: CV
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude:
+  - "gulp"
+  - "node_modules"
+  - "bower"
+  - "bower_components"
+  - "config.rb"
+  - "src"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".rvmrc"
+  - ".rbenv-version"
+  - "package.json"
+  - "gulpfile.js"
+  - "README.md"
+  - "Rakefile"
+  - "changelog.md"
+  - "script"
+  - "vendor"
+  - "thinkspace.gemspec"

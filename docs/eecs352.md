@@ -7,7 +7,7 @@ body_class: course-page
 
 ---
 
-{% assign course_assets = '/docs/eecs352stuff' | relative_url %}
+{% assign course_assets = '/eecs352stuff' | relative_url %}
 
 <span id="top"></span>
 ## CS352: Machine Perception of Music and Audio 

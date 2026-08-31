@@ -14,16 +14,16 @@ assets/icons/
 assets/images/me.jpg
 
 # The site only needs the small compatibility helpers in _helpers.scss.
-web_style/_sass/bourbon/
+docs/web_style/_sass/bourbon/
 
 # Keep unused theme templates local unless the site grows to use them.
-web_style/_includes/*
-!web_style/_includes/foot.html
-!web_style/_includes/footer.html
-!web_style/_includes/head.html
-!web_style/_includes/header.html
-!web_style/_includes/nav.html
-web_style/_layouts/*
-!web_style/_layouts/compress.html
-!web_style/_layouts/default.html
-!web_style/_layouts/page.html
+docs/web_style/_includes/*
+!docs/web_style/_includes/foot.html
+!docs/web_style/_includes/footer.html
+!docs/web_style/_includes/head.html
+!docs/web_style/_includes/header.html
+!docs/web_style/_includes/nav.html
+docs/web_style/_layouts/*
+!docs/web_style/_layouts/compress.html
+!docs/web_style/_layouts/default.html
+!docs/web_style/_layouts/page.html

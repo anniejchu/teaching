@@ -18,8 +18,6 @@ permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : rouge
 
-source      : ./
-destination : ./_site
 includes_dir: web_style/_includes
 layouts_dir : web_style/_layouts
 

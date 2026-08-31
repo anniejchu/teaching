@@ -1,1 +1,10 @@
 eecs352-musicaudio/
+.jekyll-cache/
+Gemfile
+Gemfile.lock
+_config.yml
+_includes/
+_layouts/
+_site/
+assets/
+thinkspace.gemspec

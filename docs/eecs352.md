@@ -1,8 +1,19 @@
-<a name="top"></a>
-# CS 352 MACHINE PERCEPTION OF MUSIC AND AUDIO
-## Northwestern University Summer 2026 
+---
+layout: page
+# title: cs352
+which_category: teaching
+permalink: /teaching/cs352
+body_class: course-page
 
-|[**Top**](#top)   |[**Calendar**](#calendar)  |[**Links**](#links) |[**Readings**](#readings)|
+---
+
+<a name="top"></a>
+## CS352: Machine Perception of Music and Audio 
+**Northwestern University (Updated for: Summer-2026)**
+
+ |[**Top**](#top)   |[**Calendar**](#calendar)  |[**Links**](#links) |[**Readings**](#readings)| [**Example Projects**](#projects) |
+
+
 
 ### Course Description
 This course covers machine extraction of structure in audio files covering areas such as source separation (unmixing audio recordings into individual component sounds), sound object recognition (labeling sounds), melody tracking, beat tracking, and perceptual mapping of audio to machine-quantifiable measures.
@@ -16,8 +27,6 @@ Prior programming experience sufficient to be able to do laboratory assignments 
 
 ### Time & Place 
 Lecture: Mon, Wed, 11am - 12:30pm CST in Technological Institute M164
-
-<!-- June 22-August 30; 10 weeks -->
 
 
 ### Instructors & Office Hours
@@ -78,10 +87,10 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 |    7 | Wed Aug 5   | Building Interactive Music Systems (HCI for Musicking)                                                                                                                                                          |                   | HW 4 Using Embeddings (due Fri Aug 7)                                                                                                      |                      15 |
 |    7 | Mon Aug 10  | Workshopping Proposals                                                                                                                                                                                          |                   | Project Proposal Due (EOD)                                                                                                                 |               5 (of 30) |
 |    8 | Wed Aug 12  | Generative Approaches to Controllable Sound Transformations + Project Workshop                                                                                                                                                                       |                   |                                                                                                                                            |                         |
-|    8 | Mon Aug 17  | Zoom meetings with project groups (no class: meetings by appointment)                                                                                                                                           |                   | Project Meeting 1                                                                                                                          |               5 of (30) |
+|    8 | Mon Aug 17  | [Zoom meetings](https://docs.google.com/spreadsheets/d/1v5VeqGpUOxIp7wP0vM-gzaabNCpfUQZKOO77V-HjFvY/edit?gid=797982123#gid=797982123) with project groups (no class: meetings by appointment)                                                                                                                                           |                   | Project Meeting 1                                                                                                                          |               5 of (30) |
 |    9 | Wed Aug 19  | --- async work on final projects --                                                                                                                                                                      |                   |                                                                                                                                            |                         |
-|   10 | Mon Aug 24  | Zoom meetings with project groups (no class: meetings by appointment)                                                                                                                                           |                   | Project Meeting 2                                                                                                                          |               5 of (30) |
-|   10 | Wed Aug 26  | FINAL PROJECT PRESENTATIONS                                                                                                                                                                                     |                   |                                                                                                                                            | Deliverables (15 of 30) |
+|   10 | Mon Aug 24  | [Zoom meetings](https://docs.google.com/spreadsheets/d/1v5VeqGpUOxIp7wP0vM-gzaabNCpfUQZKOO77V-HjFvY/edit?gid=797982123#gid=797982123) with project groups (no class: meetings by appointment)                                                                                                                                           |                   | Project Meeting 2                                                                                                                          |               5 of (30) |
+|   10 | Wed Aug 26  | FINAL PROJECT PRESENTATIONS ([on Zoom](https://northwestern.zoom.us/j/9176709379))                                                                                                                                                                                     |                   |                                                                                                                                            | Deliverables (15 of 30) |
 
 <a name="readings"></a>
 
@@ -118,7 +127,21 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 
 ### Helpful Links
 
-#### Places to get ideas
+<a name="projects"></a>
+#### Some CS352 Projects (Mentor: A.Chu)
+
+[Live Neural Harmonizer](https://ryanrlee.github.io/projects/harmonizer/), Summer 2026
+
+[DIY Autotune](https://calebweldon.github.io/autotune/), Summer 2026
+
+[Vowel-based Emotion Editing](https://junzhangci.github.io/promonet-vowel-emotion-editing/), Summer 2026
+
+Benchmarking Neural vs Real Amps, Summer 2026
+
+[TimbreTune](https://sites.google.com/u.northwestern.edu/timbretune), Winter 2025
+
+#### Other Places to get ideas
+
 [EECS 352 Final projects from 2017 and 2015](http://www.cs.northwestern.edu/~pardo/courses/eecs352/projects.php)
 
 [Google's Project Magenta](https://magenta.tensorflow.org)
@@ -157,7 +180,4 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 
 
 |[**Top**](#top)   |[**Calendar**](#calendar)  |[**Links**](#links)  |[**Readings**](#readings)|
-
-
-<!-- [papers](https://arxiv.org/pdf/2410.00872) -->
 

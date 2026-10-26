@@ -13,7 +13,13 @@ body_class: course-page
 ## CS352: Machine Perception of Music and Audio 
 **Northwestern University (Updated for: Summer-2026)**
 
- |[**Top**](#top)   |[**Calendar**](#calendar)  |[**Links**](#links) |[**Readings**](#readings)| [**Example Projects**](#projects) |
+<nav class="course-nav" aria-label="Course sections">
+  <a href="#top">Top</a>
+  <a href="#calendar">Calendar</a>
+  <a href="#links">Links</a>
+  <a href="#readings">Readings</a>
+  <a href="#projects">Example Projects</a>
+</nav>
 
 
 
@@ -181,4 +187,9 @@ Benchmarking Neural vs Real Amps, Summer 2026
 [SoundSlice guitar tab and notation website](https://www.soundslice.com)
 
 
-|[**Top**](#top)   |[**Calendar**](#calendar)  |[**Links**](#links)  |[**Readings**](#readings)|
+<nav class="course-nav" aria-label="Course sections at end of page">
+  <a href="#top">Top</a>
+  <a href="#calendar">Calendar</a>
+  <a href="#links">Links</a>
+  <a href="#readings">Readings</a>
+</nav>

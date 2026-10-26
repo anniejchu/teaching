@@ -39,7 +39,8 @@ hr {
 }
 
 .container {
-  padding: $base-spacing;
+  // Align content with the site header, independently of the page's font size.
+  padding: 1.26rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
@@ -56,7 +57,7 @@ hr {
 
 .link {
   color: $blue-color;
-  padding-bottom: .05em;
+  padding-bottom: 0;
   border-bottom: 2px solid transparent;
 
   @include transition(border 300ms linear);
@@ -65,14 +66,25 @@ hr {
   &:focus,
   &:active {
     border-bottom: 2px solid $blue-color;
-    padding-bottom: .1em;
+    padding-bottom: 0;
   }
 }
 
 .site-header {
   border-bottom: 1px solid lighten($black-color, 5%);
-  margin-bottom: $small-spacing;
+  margin-bottom: .7em;
   min-height: 80px;
+}
+
+.site-header,
+.site-footer {
+  font-family: $site-font-family;
+  font-size: .9rem;
+  line-height: 1.4;
+
+  .container {
+    padding: 1.4em;
+  }
 }
 
 .intro {
@@ -92,34 +104,60 @@ hr {
 }
 
 .logo {
-  float: left;
-  margin: 0 0 1em 0;
+  margin: 0;
   cursor: pointer;
   letter-spacing: 0.8px;
+  font-family: $site-font-family;
   font-size: 20px;
   line-height: 28px;
   font-weight: 300;
+  text-decoration: none;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: darkred;
+    font-weight: 700;
+
+    &:hover {
+      color: #e80909;
+    }
+  }
 
   span {
     font-weight: 700;
   }
 }
 
+.site-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
 .nav {
   min-height: 64px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: .7em 1.4em;
+  }
 }
 
 .navbar {
-  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4em 1.2em;
   margin: 0;
-  position: relative;
   padding: 0;
-  pointer-events: all;
-  cursor: pointer;
+  list-style: none;
 
   li {
-    display: inline-block;
-    padding: 0 .6em;
+    margin: 0;
   }
 
   a {
@@ -223,7 +261,7 @@ hr {
 .site-footer {
   @extend .clearfix;
 
-  padding: $base-spacing 0;
+  padding: 1.4em 0;
 
   a {
     @extend .link;

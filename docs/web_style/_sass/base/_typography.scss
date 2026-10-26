@@ -40,6 +40,17 @@ h6 {
   font-size: rem(16);
 }
 
+h1,
+h2,
+h3,
+h4 {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 217, 207, .8);
+  text-decoration-thickness: .45em;
+  text-underline-offset: -.2em;
+  text-decoration-skip-ink: none;
+}
+
 p {
   margin: 0 0 $small-spacing;
 

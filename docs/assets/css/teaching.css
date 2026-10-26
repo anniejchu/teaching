@@ -1,12 +1,12 @@
 /* ---------- Course design variables ---------- */
 
 :root {
-  --course-text: #17191d;
-  --course-muted: #636b78;
-  --course-border: #dfe3e8;
-  --course-surface: #f5f7fa;
-  --course-accent: #4f46e5;
-  --course-accent-dark: #3730a3;
+  --course-text: #141414;
+  --course-muted: #777;
+  --course-border: #e8e5de;
+  --course-surface: #f2f0ea;
+  --course-accent: #2a4bd7;
+  --course-accent-dark: #2038a1;
   --course-max-width: 1120px;
 }
 
@@ -50,8 +50,8 @@
   background:
     linear-gradient(
       135deg,
-      rgba(79, 70, 229, 0.12),
-      rgba(255, 255, 255, 0.95) 60%
+      rgba(255, 217, 207, 0.8),
+      #fbfaf7 60%
     );
 }
 
@@ -87,25 +87,22 @@
 .course-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem;
-  margin-top: 2rem;
+  gap: 0.55rem 1.2rem;
+  margin: 1.5rem 0 2rem;
 }
 
 .course-nav a {
   display: inline-block;
-  padding: 0.55rem 0.9rem;
-  border: 1px solid var(--course-border);
-  border-radius: 999px;
-  background: white;
-  color: var(--course-text);
+  color: var(--course-accent);
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
 }
 
-.course-nav a:hover {
-  border-color: var(--course-accent);
-  color: var(--course-accent);
+.course-nav a:hover,
+.course-nav a:focus {
+  border-bottom-color: var(--course-accent);
+  color: var(--course-accent-dark);
 }
 
 
@@ -125,8 +122,6 @@
 
 .course-page h3 {
   margin-top: 2.5rem;
-  padding-bottom: 0.6rem;
-  border-bottom: 1px solid var(--course-border);
   font-size: 1.3rem;
 }
 
@@ -166,7 +161,7 @@
 }
 
 .course-page tr:nth-child(even) td {
-  background: #fafbfc;
+  background: #f7f5ef;
 }
 
 

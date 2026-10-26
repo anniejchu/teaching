@@ -1,7 +1,7 @@
-<nav class="nav">
+<nav class="nav" aria-label="Main navigation">
   <div class="container">
     <h1 class="logo">
-      <a href="{{ '/' | relative_url }}" class="site-title-link">
+      <a href="{{ site.url }}/" class="site-title-link">
         <img src="{{ '/assets/images/orangeicon.png' | relative_url }}" alt="" class="site-icon" />
         {{ site.title_left }}<span>{{ site.title_right }}</span>
       </a>
@@ -9,7 +9,7 @@
     <ul class="navbar">
       <li><a href="{{ '/assets/052026_CV.pdf' | relative_url }}">CV</a></li>
       <li><a href="https://anniejchu.github.io/research">Research</a></li>
-      <li><a href="{{ '/' | relative_url }}">Teaching</a></li>
+      <li><a href="{{ '/' | relative_url }}" aria-current="{% if page.url == '/' %}page{% else %}true{% endif %}">Teaching</a></li>
     </ul>
   </div>
 </nav>

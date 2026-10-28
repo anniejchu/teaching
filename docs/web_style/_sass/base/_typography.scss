@@ -4,6 +4,7 @@ body {
   //font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
+  font-weight: $base-font-weight;
 }
 
 h1,
@@ -16,23 +17,23 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
-  font-weight: 700;
+  font-weight: $bold-font-weight;
 }
 
 h1 {
-  font-size: rem(30);
-}
-
-h2 {
-  font-size: rem(26);
-}
-
-h3 {
   font-size: rem(24);
 }
 
-h4 {
+h2 {
+  font-size: rem(22);
+}
+
+h3 {
   font-size: rem(20);
+}
+
+h4 {
+  font-size: rem(18);
 }
 
 h5,
@@ -46,17 +47,16 @@ h3,
 h4 {
   text-decoration: underline;
   text-decoration-color: rgba(255, 217, 207, .8);
-  text-decoration-thickness: .45em;
-  text-underline-offset: -.2em;
+  text-decoration-thickness: .3em;
+  text-underline-offset: -.075em;
   text-decoration-skip-ink: none;
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $paragraph-spacing;
 
   &.lead {
-    font-size: rem(17);
-    font-weight: 300;
+    font-weight: $base-font-weight;
   }
 }
 
@@ -126,8 +126,9 @@ pre {
   }
 }
 
-strong {
-  font-weight: bold;
+strong,
+b {
+  font-weight: $bold-font-weight;
 }
 
 em {

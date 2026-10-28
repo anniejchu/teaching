@@ -7,9 +7,9 @@
       </a>
     </h1>
     <ul class="navbar">
-      <li><a href="{{ '/assets/052026_CV.pdf' | relative_url }}">CV</a></li>
-      <li><a href="https://anniejchu.github.io/research">Research</a></li>
-      <li><a href="{{ '/' | relative_url }}" aria-current="{% if page.url == '/' %}page{% else %}true{% endif %}">Teaching</a></li>
+      <li class="navbar-cv"><a href="{{ site.url }}/assets/cv.pdf">CV</a></li>
+      <li class="navbar-teaching"><a href="{{ '/' | relative_url }}" aria-current="{% if page.url == '/' %}page{% else %}true{% endif %}">Teaching</a></li>
+      <li class="navbar-research"><a href="https://anniejchu.github.io/research">Research</a></li>
     </ul>
   </div>
 </nav>

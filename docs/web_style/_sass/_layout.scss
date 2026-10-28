@@ -40,11 +40,11 @@ hr {
 
 .container {
   // Align content with the site header, independently of the page's font size.
-  padding: 1.26rem;
+  padding: $base-line-height * $site-font-size;
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
-  font-weight: normal;
+  font-weight: $base-font-weight;
 }
 
 .pull-left {
@@ -58,32 +58,32 @@ hr {
 .link {
   color: $blue-color;
   padding-bottom: 0;
-  border-bottom: 2px solid transparent;
-
-  @include transition(border 300ms linear);
+  border-bottom: none;
 
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 2px solid $blue-color;
-    padding-bottom: 0;
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: .15em;
   }
 }
 
 .site-header {
   border-bottom: 1px solid lighten($black-color, 5%);
-  margin-bottom: .7em;
+  margin-bottom: $small-spacing;
   min-height: 80px;
 }
 
 .site-header,
 .site-footer {
   font-family: $site-font-family;
-  font-size: .9rem;
-  line-height: 1.4;
+  font-size: $site-font-size;
+  line-height: $base-line-height;
 
   .container {
-    padding: 1.4em;
+    padding: $base-spacing;
   }
 }
 
@@ -149,9 +149,10 @@ hr {
 }
 
 .navbar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .4em 1.2em;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  gap: 2px 16px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -162,6 +163,33 @@ hr {
 
   a {
     @extend .link;
+  }
+
+  .navbar-cv {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .navbar-teaching {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+
+    a {
+      font-size: .75rem;
+      opacity: .05;
+      transition: opacity $base-duration $base-timing;
+
+      &:hover,
+      &:focus {
+        opacity: 1;
+      }
+    }
+  }
+
+  .navbar-research {
+    grid-column: 2;
+    grid-row: 2;
   }
 }
 
@@ -261,7 +289,7 @@ hr {
 .site-footer {
   @extend .clearfix;
 
-  padding: 1.4em 0;
+  padding: $base-spacing 0;
 
   a {
     @extend .link;

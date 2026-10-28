@@ -101,7 +101,6 @@
 
 .course-nav a:hover,
 .course-nav a:focus {
-  border-bottom-color: var(--course-accent);
   color: var(--course-accent-dark);
 }
 

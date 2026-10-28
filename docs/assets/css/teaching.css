@@ -19,6 +19,13 @@
   text-decoration: none;
 }
 
+.teaching-index .page-content a,
+.teaching-index .page-content a:hover,
+.teaching-index .page-content a:focus,
+.teaching-index .page-content a:active {
+  text-decoration: none;
+}
+
 
 /* ---------- Base typography ---------- */
 
@@ -96,6 +103,7 @@
 .course-nav {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.55rem 1.2rem;
   margin: 1.5rem 0 2rem;
 }
@@ -111,6 +119,20 @@
 .course-nav a:hover,
 .course-nav a:focus {
   color: var(--course-accent-dark);
+}
+
+.course-nav .course-projects-link {
+  padding: 0.3em 0.65em;
+  border-radius: 0.25rem;
+  background: #ffd9cf;
+  color: var(--course-text);
+  font-weight: 700;
+}
+
+.course-nav .course-projects-link:hover,
+.course-nav .course-projects-link:focus {
+  background: #ffc6b8;
+  color: var(--course-text);
 }
 
 

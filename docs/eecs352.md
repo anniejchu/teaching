@@ -18,7 +18,7 @@ body_class: course-page
   <a href="#calendar">Calendar</a>
   <a href="#links">Links</a>
   <a href="#readings">Readings</a>
-  <a href="#projects">Example Projects</a>
+  <a href="#projects" class="course-projects-link">Final projects!</a>
 </nav>
 
 
@@ -136,7 +136,7 @@ Assignments must be submitted on the due date by the time specified on Canvas. I
 ### Helpful Links
 
 <span id="projects"></span>
-#### Some CS352 Projects (Mentor: A.Chu)
+#### Final projects! (Mentor: A. Chu)
 
 [Live Neural Harmonizer](https://ryanrlee.github.io/projects/harmonizer/), Summer 2026
 

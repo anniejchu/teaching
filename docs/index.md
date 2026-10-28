@@ -3,6 +3,7 @@ layout: page
 title: Teaching
 which_category: teaching
 permalink: /
+body_class: teaching-index
 ---
 
 ### [Summer 2026: COMP_SCI 352 Machine Perception of Music and Audio]({{ '/cs352' | relative_url }})

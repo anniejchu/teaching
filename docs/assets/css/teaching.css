@@ -10,6 +10,15 @@
   --course-max-width: 1120px;
 }
 
+/* ---------- Teaching index ---------- */
+
+.teaching-index h1,
+.teaching-index h2,
+.teaching-index h3,
+.teaching-index h4 {
+  text-decoration: none;
+}
+
 
 /* ---------- Base typography ---------- */
 

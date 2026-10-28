@@ -7,15 +7,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 // $base-font-family: 'Roboto Mono', monospace;
 // $base-font-family: 'Overpass Mono', monospace;
-$base-font-family: 'Inconsolata', monospace;
+$base-font-family: 'DM Mono', monospace;
 // $base-font-family: 'Libre Baskerville', serif;
 // $base-font-family: 'DM Sans', sans-serif;
 $heading-font-family: $base-font-family;
-$site-font-family: 'DM Mono', monospace;
+$site-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 1em;
-$site-font-size: .9rem;
+$base-font-size: .9rem;
+$site-font-size: $base-font-size;
 
 // Font weights
 $base-font-weight: 400;

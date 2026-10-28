@@ -104,7 +104,8 @@ hr {
 }
 
 .logo {
-  margin: 0;
+  float: left;
+  margin: 0 0 1em 0;
   cursor: pointer;
   letter-spacing: 0.8px;
   font-family: $site-font-family;
@@ -138,20 +139,13 @@ hr {
 
 .nav {
   min-height: 64px;
-
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: .7em 1.4em;
-  }
 }
 
 .navbar {
+  float: right;
+  position: relative;
   display: grid;
-  grid-template-columns: max-content max-content;
-  align-items: center;
+  grid-template-columns: auto auto;
   gap: 2px 16px;
   margin: 0;
   padding: 0;
